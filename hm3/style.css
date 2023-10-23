@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.input_class{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+.btn{
+    width: 200px;
+    height: 70px;
+    border-radius: 15px;
+    color: rgb(205, 230, 165);
+    font-size: 25px;
+    background: blue;
+    border: none;
+}
+
+.btn:hover{
+    background-color: rgb(138, 138, 158);
+    cursor: pointer;
+}
+
+.result_js_func{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding-top: 45px;
+}
+
